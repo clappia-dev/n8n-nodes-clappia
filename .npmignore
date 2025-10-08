@@ -1,2 +1,60 @@
+# Source files (only ship compiled dist/)
+nodes/
+credentials/
+*.ts
+tsconfig.json
+gulpfile.js
+
+# Development files
+.eslintrc.js
+.eslintrc.prepublish.js
+.prettierrc.json
+.prettierignore
+
+# Test files
+test/
+*.test.js
+*.spec.js
+test-*.js
+
+# Documentation (except README)
+docs/
+*.md
+!README.md
+
+# Build artifacts
+.tsbuildinfo
+
+# IDE
+.vscode/
+.idea/
+.cursor/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+npm-debug.log*
+n8n.log
+
+# OS
 .DS_Store
-*.tsbuildinfo
+Thumbs.db
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# Scripts
+*.sh
+
+# Temporary files
+api-details.txt
+tasks.md
+test-workflow.json
+
+# Old documentation
+SUBMISSION_GUIDE.md
+README_NPM.md
